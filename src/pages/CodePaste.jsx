@@ -6,6 +6,11 @@ import SnippetList from '../components/SnippetList';
 import CodeModal from '../components/CodeModal';
 
 const CodePaste = () => {
+
+  useEffect(() => {
+    document.title = 'CodePaste';
+  }, []);
+
   const [codeShow, setCodeShow] = useState(null);
   const [allCode, setAllCode] = useState([]);
   const [edit, setEdit] = useState(false);
