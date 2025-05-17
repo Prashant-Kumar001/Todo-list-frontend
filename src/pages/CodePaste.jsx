@@ -1,4 +1,3 @@
-// src/pages/CodePaste.jsx
 import React, { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import axios from 'axios';

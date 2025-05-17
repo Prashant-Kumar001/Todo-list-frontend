@@ -1,4 +1,3 @@
-import React from 'react';
 import CodePaste from './pages/CodePaste';
 
 const App = () => {
